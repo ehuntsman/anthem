@@ -1,0 +1,15 @@
+<div style="width: 30vw; display: inline-block;">
+    <h3>{{ship.details.name}}</h3>
+    <div ng-show="ship.fullDetails">
+        <p>length: {{ship.details.length}}<br/>
+        class: {{ship.details.starship_class}}</p>
+    </div>
+    <p>cost: {{ship.details.cost_in_credits}}
+        <button ng-click="ship.onPurchase()" style="padding: 5px 25px;"> buy now</button>
+        <input ng-model="buyer" placeholder="Buyer"/>
+    </p>
+    <p ng-if="ship.owner">owner: {{ship.owner}}</p>
+    <button ui-sref="starship({id:ship.details.id})">See more info</button>
+    <button ng-click="ship.goToHyperSpace()">hyperspace</button>
+    <hr/>
+</div>

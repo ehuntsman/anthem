@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.team-div {
+  display: inline-block;
+  background: lightgray;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+}
+
+.team-div ul {
+  list-style-type: none;
+  padding: 0 10px;
+}
+
+.player-input {
+  margin: 10px;
+}
+
+.team-input {
+  display: block;
+  margin: 10px;
+}
+
+.toggle-team {
+  margin: 10px;
+}
+
+.toggle-team button {
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.red {
+  background: red;
+}
+
+.blue {
+  background: blue;
+}

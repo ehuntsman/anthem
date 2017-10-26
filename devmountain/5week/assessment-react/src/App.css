@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.task-input-container {
+  border: 1px solid gray;
+  text-align: left;
+  padding: 20px;
+  margin: 10px;
+}
+
+.task-input-container input {
+  width: 95%;
+  display: block;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.task-input-container button {
+  background: cornflowerblue;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+.task-list-container {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 10px;
+  background: lightgray;
+}
+
+.task-list-container ul {
+  padding: 0;
+  list-style-type: none;
+  text-align: left;
+}
+
+.task-list-container li {
+  border: 1px solid grey;
+  background: white;
+  margin: 5px;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.task-list-container p {
+  display: inline-block;
+}
+
+.task-list-container button {
+  display: inline-block;
+  float: right;
+}
+
+.tasks-container{
+  width: 40vw;
+  display: inline-block;
+}
+
+.task-info-container {
+  width: 40vw;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.completed {
+  background: #ddd !important;
+}
+
+.completed p {
+  text-decoration: line-through;
+}
+
+.task-info-total input{
+  width: 60%;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+  color: black;
+  font-size: 20px;
+}
+
+.task-info-total button {
+  background: cornflowerblue;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+.task-info-total input::-webkit-input-placeholder{
+  color: black;
+  font-size: 20px;
+}

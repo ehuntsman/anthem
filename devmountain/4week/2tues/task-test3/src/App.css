@@ -1,0 +1,110 @@
+.App{
+  background: url('./stars.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.App-header {
+  height: 40px;
+  background: black;
+  text-align: center;
+  color: white;
+}
+
+.App-header h2 {
+  margin: 0px;
+  padding: 0px;
+  line-height: 40px;
+}
+
+.add-task-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.add-task-container input,
+.add-task-container button {
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.add-task-container button {
+  background: cornflowerblue;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+}
+
+.component-box {
+  background: rgba(0,0,0,0.5);
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin: 1vw;
+  /*text-align: center;*/
+  display: inline-block;
+  width: 42vw;
+  vertical-align: top;
+}
+
+.component-box ul {
+  list-style: none;
+}
+
+.component-box ul li {
+  margin: 10px 0;
+}
+
+.delete-task,
+.complete-task {
+  background: black;
+  border-radius: 70px;
+}
+
+.delete-task {
+  float: right;
+  margin-left: 10px;
+  color: red;
+  border: 1px solid red;
+  font-size: 8px;
+}
+
+.complete-task {
+  margin-right: 10px;
+  color: green;
+  border: 1px solid green;
+}
+
+.disabled p{
+  text-decoration: line-through;
+}
+
+.disabled .complete-task{
+  color: grey;
+  background: none;
+  border: grey;
+}
+
+.task-item p,
+.task-item button {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 0;
+}
+
+.task-item {
+  border-bottom: 1px solid #ccc;
+  padding-top: 8px;
+}
+
+.select-me {
+  display: inline-block;
+  width: 31vw;
+}
+
+.editing-section input{
+  border: none;
+  border-bottom: 1px solid #bbb;
+  box-shadow: none;
+}

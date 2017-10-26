@@ -1,0 +1,53 @@
+html{
+	font-size: 16px;
+}
+
+.main-header {
+	width: 100%;
+	height: 80px;
+	background: black;
+	padding: 0 16px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo {
+	width: 50px;
+}
+
+.header-navigation {
+	color: white;
+	display: none;
+	justify-content: space-around;
+	width: 300px;
+}
+
+.header-navigation li {
+	font-size: 1rem;
+}
+
+.ham {
+	width: 32px;
+	height: 32px;
+}
+
+.ham path {
+	fill: white;
+}
+
+@media(min-width: 750px) {
+	html {
+		font-size: 18px;
+	}
+	.ham {
+		display: none;
+	}
+	.header-navigation {
+		display: flex;
+	}
+}
+
+@media(min-width: 950px) {
+
+}

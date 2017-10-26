@@ -1,0 +1,1 @@
+export default "http://pokeapi.co/api/v2/pokemon/";

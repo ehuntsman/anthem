@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html style="height: 100vh;">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Certificate of Completion!</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+  <style>
+  	@-webkit-keyframes color-change {
+	    0% { color: #eaab00; }
+		20% { color: #ffca07; }
+	    40% { color: #c8b748; }
+		60% { color: #8fc748; }
+	    80% { color: #54a5db; }
+		100% { color: #92aec9; }
+	}
+	@-moz-keyframes color-change {
+	    0% { color: #eaab00; }
+		20% { color: #ffca07; }
+	    40% { color: #c8b748; }
+		60% { color: #8fc748; }
+	    80% { color: #54a5db; }
+		100% { color: #92aec9; }
+	}
+	@-o-keyframes color-change {
+	    0% { color: #eaab00; }
+		20% { color: #ffca07; }
+	    40% { color: #c8b748; }
+		60% { color: #8fc748; }
+	    80% { color: #54a5db; }
+		100% { color: #92aec9; }
+	}
+	@keyframes color-change {
+	    0% { color: #eaab00; }
+		20% { color: #ffca07; }
+	    40% { color: #c8b748; }
+		60% { color: #8fc748; }
+	    80% { color: #54a5db; }
+		100% { color: #92aec9; }
+	}
+	.animated {
+	  -webkit-animation-duration: 1s;
+	  animation-duration: 1s;
+	  -webkit-animation-fill-mode: both;
+	  animation-fill-mode: both;
+	}
+
+	.animated.infinite {
+	  -webkit-animation-iteration-count: infinite;
+	  animation-iteration-count: infinite;
+	}
+
+	@keyframes fadeIn {
+	  from {
+	    opacity: 0;
+	  }
+
+	  to {
+	    opacity: 1;
+	  }
+	}
+
+	.fadeIn {
+	  -webkit-animation-name: fadeIn;
+	  animation-name: fadeIn;
+	}
+
+	@-webkit-keyframes fadeInDown {
+	  from {
+	    opacity: 0;
+	    -webkit-transform: translate3d(0, -100%, 0);
+	    transform: translate3d(0, -100%, 0);
+	  }
+
+	  to {
+	    opacity: 1;
+	    -webkit-transform: none;
+	    transform: none;
+	  }
+	}
+
+	@keyframes fadeInDown {
+	  from {
+	    opacity: 0;
+	    -webkit-transform: translate3d(0, -100%, 0);
+	    transform: translate3d(0, -100%, 0);
+	  }
+
+	  to {
+	    opacity: 1;
+	    -webkit-transform: none;
+	    transform: none;
+	  }
+	}
+
+	.fadeInDown {
+	  -webkit-animation-name: fadeInDown;
+	  animation-name: fadeInDown;
+	}
+</style>
+</head>
+<body style="margin: 0; padding: 0; background-size: contain; color: #E6E6E6; font-family: 'PT Sans', sans-serif; background: #4C4C4C url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAyOTkuOCA3MDAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDI5OS44IDcwMDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsOiNFOUFDMjE7fQo8L3N0eWxlPgo8ZyBpZD0iRml0bmVzc19FdmVudF9CbHVlIj4KCTxnIGlkPSJUZXh0X1RvcF8xXyI+Cgk8L2c+Cgk8ZyBpZD0iVGV4dF9Cb3R0b21fMV8iPgoJPC9nPgo8L2c+CjxnIGlkPSJGaXRuZXNzX0V2ZW50X1llbGxvdyI+Cgk8ZyBpZD0iVGV4dF9Ub3AiPgoJPC9nPgoJPGcgaWQ9IlRleHRfQm90dG9tIj4KCQk8cGF0aCBjbGFzcz0ic3QwIiBkPSJNOTkuMywwYzIuNSwzLjIsNC45LDYuMyw3LjMsOS41YzE2LjgsMjIuNiwzMC4zLDQ2LjMsNDAuMiw3MC4zYzkuMywyMi42LDE1LjYsNDYuMywxOC44LDcwLjQKCQkJYzMsMjIuNCwzLjQsNDUuOSwxLjMsNzBjLTMuNyw0MS41LTE1LjEsODYuMi0zNC44LDEzNi44Yy0xNy40LDQ0LjYtMzguOCw4Ny43LTU5LjUsMTI5LjRjLTI5LjksNjAuMi01OC4xLDExNy02OC41LDE2Ny41CgkJCWMtMy40LDE2LjctNC44LDMyLTQuMSw0Ni4yaDI5OS44VjBIOTkuM3oiLz4KCTwvZz4KPC9nPgo8L3N2Zz4K') no-repeat right;">
+	<div style="width: 75vw; height: 300px; text-align: center; margin-left: auto; margin-right: auto; margin-top: 20vh;">
+		<h1 style="font-family: 'Playball', cursive; font-weight: 100; font-size: 2.5rem; -webkit-animation: color-change 10s infinite; -moz-animation: color-change 10s infinite; -o-animation: color-change 10s infinite; -ms-animation: color-change 10s infinite; animation: color-change 10s infinite;">@@certification.title@@ Certificate of Completion</h1>
+		<h3>presented to:</h3>
+		<h2 class="animated fadeInDown" style="font-size: 2rem;">@@person.first_name@@ @@person.last_name@@</h2>
+		<p>Completed on @@certificaton.acquiredOnDate@@</p>
+	</div>
+</body>
+</html>

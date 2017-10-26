@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body ng-app="myApp">
+    <div ng-controller="pancakeCtrl">
+        {{ name }}
+        <!--model creates a two way bind-->
+        <input ng-model="name"/>
+        <div>
+            <h4>New Pancake</h4>
+            <p>Background <input ng-model="newPancake.background" /></p>
+            <p>Width <input ng-model="newPancake.width" /></p>
+            <p>Height <input ng-model="newPancake.height" /></p>
+            <button ng-click="addPancake()">Add Pancake</button>
+            {{newPancake}}
+        </div>
+        <!--putting a ng-hide in here makes the buton hide when you click it to show the filters-->
+        <!--<button ng-hide="showFilters" ng-click="showFilters = !showFilters">Show Filters</button>-->
+        <button ng-click="showFilters = !showFilters">Toggle Filters</button>
+        <!--This hides it even in the inspect. Use ng-if for admin stuff, not really for toggles-->
+        <div ng-if="showFilters">
+            <p>show and dif dif</p>
+        </div>
+        <div ng-show="showFilters">
+            <p>Color Filter <input ng-model="filterObj.background" /></p>
+            <p>Height Filter <input ng-model="filterObj.height" /></p>
+            <p>Width Filter <input ng-model="filterObj.width" /></p>
+        </div>
+        <div class="pancake" ng-repeat="p in pancakes | filter : filterObj" ng-style="p">
+            {{p.background}}
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.js"></script>
+    <script src="app/app.js" charset="utf-8"></script>
+</body>
+</html>
