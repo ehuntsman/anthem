@@ -1,0 +1,21 @@
+.world-time-part {
+  height: 20vh;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 40px;
+  width: 20%;
+  display: inline-block;
+  margin: 1vh 2%; }
+  .world-time-part .time-image {
+    background: black;
+    width: 25%;
+    display: inline-block;
+    height: 100%;
+    border-radius: 40px 0 0 40px; }
+  .world-time-part .time-text {
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+    width: 75%; }
+    .world-time-part .time-text .time-time {
+      text-align: right;
+      padding: 10% 10% 0 0; }

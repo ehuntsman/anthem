@@ -1,0 +1,22 @@
+.world-container {
+  .world-news {
+    height: 35vh;
+    margin-bottom: 1vh;
+    .world-news-left, .world-news-right {
+      display: inline-block;
+      background: rgba(255,255,255,0.5);
+      height: 100%;
+    }
+    .world-news-left {
+      width: calc(40% - 1vh);
+      margin-right: 1vh;
+    }
+    .world-news-right {
+      width: 60%;
+    }
+  }
+  .world-times {
+    height: 48vh;
+    margin-bottom: 1vh;
+  }
+}

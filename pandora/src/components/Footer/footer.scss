@@ -1,0 +1,19 @@
+.footer {
+      height: 15vh;
+      .footer-left, .footer-center, .footer-right {
+        background: rgba(255,255,255,0.5);
+        display: inline-block;
+        vertical-align: top;
+        height: 100%;
+      }
+      .footer-left {
+        width: 30%;
+      }
+      .footer-center {
+        margin: 0 1vh;
+        width: calc(35% - 2vh);
+      }
+      .footer-right {
+        width: 35%;
+      }
+  }

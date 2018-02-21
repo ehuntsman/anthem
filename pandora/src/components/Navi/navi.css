@@ -1,0 +1,17 @@
+.navi-container {
+  text-align: center; }
+  .navi-container .navi-button {
+    background: rgba(255, 255, 255, 0.5);
+    border: 0;
+    border-radius: 10px;
+    height: 60px;
+    width: 60px;
+    margin: 40px auto;
+    display: block;
+    padding: 21px 0;
+    box-sizing: border-box; }
+  .navi-container .wtx-logo img {
+    height: 60px;
+    position: absolute;
+    bottom: 40px;
+    left: 20px; }

@@ -1,0 +1,29 @@
+.home-container h1 {
+  color: white; }
+
+.home-container .roadway-news {
+  height: 35vh;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 0 0 1vh 0; }
+
+.home-container .news-ticker {
+  height: 7vh;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 1vh 0;
+  padding: 0 1vh;
+  line-height: 7vh;
+  box-sizing: border-box; }
+
+.home-container .main-news-breakroom-container {
+  height: 40vh;
+  margin: 1vh 0; }
+  .home-container .main-news-breakroom-container .large-news, .home-container .main-news-breakroom-container .breakroom-news {
+    background: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    height: 100%;
+    vertical-align: top; }
+  .home-container .main-news-breakroom-container .large-news {
+    margin-right: 1vh;
+    width: calc(80% - 1vh); }
+  .home-container .main-news-breakroom-container .breakroom-news {
+    width: 20%; }

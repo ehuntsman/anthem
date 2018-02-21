@@ -1,0 +1,44 @@
+body {
+  background: black; }
+
+html, body, div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+p {
+  font-size: 16px; }
+
+h1, h2, h3, h4, h5, h6, p, a {
+  margin: 0; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+.main-container {
+  height: 56.25vw;
+  background: white;
+  background-image: url("./components/backerbottom.png");
+  background-size: cover; }
+
+.left-navi {
+  display: inline-block;
+  width: 100px;
+  color: green;
+  background: transparent;
+  border: none;
+  height: 100%;
+  display: inline-block; }
+
+.right-router {
+  width: calc(100vw - 100px);
+  display: inline-block;
+  vertical-align: top; }
