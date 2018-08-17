@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Eagle+Lake");
+@import url("https://fonts.googleapis.com/css?family=Sawarabi+Mincho");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #E2E2E2;
+  font-family: 'Sawarabi Mincho', sans-serif; }
+
+ul {
+  list-style: none; }
+
+.top-bar-hero {
+  height: 300px;
+  width: 100%;
+  background: url("../../images/herohome.png");
+  background-size: cover;
+  display: block; }
+
+.home-body {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: -100px;
+  clear: both; }
+  .home-body .updates-section {
+    vertical-align: top;
+    max-width: 230px;
+    box-sizing: border-box;
+    padding: 40px 15px;
+    height: 300px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    background: -moz-linear-gradient(top, #d8b5ff 0%, rgba(30, 174, 152, 0.8) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #d8b5ff 0%, rgba(30, 174, 152, 0.8) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #d8b5ff 0%, rgba(30, 174, 152, 0.8) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D8B5FF', endColorstr='#1EAE98',GradientType=0 );
+    /* IE6-9 */ }
+    .home-body .updates-section h3 {
+      font-family: 'Eagle Lake', cursive; }
+  .home-body .support-section {
+    vertical-align: top;
+    max-width: 230px;
+    box-sizing: border-box;
+    height: 300px;
+    padding: 40px 15px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    background: -moz-linear-gradient(top, #ea8d8d 0%, rgba(168, 144, 254, 0.8) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ea8d8d 0%, rgba(168, 144, 254, 0.8) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ea8d8d 0%, rgba(168, 144, 254, 0.8) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EA8D8D', endColorstr='#A890FE',GradientType=0 );
+    /* IE6-9 */ }
+    .home-body .support-section h3 {
+      font-family: 'Eagle Lake', cursive; }

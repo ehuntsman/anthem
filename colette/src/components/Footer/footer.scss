@@ -1,0 +1,33 @@
+@import "../../app.scss";
+
+footer {
+  display: block;
+  bottom: 0;
+}
+
+.footer-base {
+  height: 200px;
+  width: 100%;
+  bottom: 0;
+  background: url('../../images/footerimage.png');
+  background-size: cover;
+  // position: absolute;
+  z-index: 0;
+  .color-overlay{
+    background: -moz-linear-gradient(top, rgba(120,198,111,0.8) 0%, rgba(83,167,141,0.8) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(120,198,111,0.8) 0%,rgba(83,167,141,0.8) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(120,198,111,0.8) 0%,rgba(83,167,141,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccfefec7', endColorstr='#cc00b7fe',GradientType=0 ); /* IE6-9 */
+  }
+}
+
+.footer-content {
+  text-align: center;
+  max-width: 900px;
+  .footer-large-image img {
+    margin-right: 40%;
+    z-index: 10;
+    max-height: 300px;
+    margin-bottom: -222px;
+  }
+}
